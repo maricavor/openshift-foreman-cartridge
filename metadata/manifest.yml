@@ -11,6 +11,7 @@ Source-Url: https://github.com/ncdc/openshift-foreman-cartridge/archive/master.z
 Vendor: David Dollar
 Categories:
   - embedded
+  - plugin
 Website: https://github.com/ncdc/openshift-foreman-cartridge
 Provides:
   - foreman-0.63
@@ -18,5 +19,5 @@ Provides:
 Group-Overrides:
   - components:
     - foreman-0.63
-    - web_proxy
+    - web_framework
 Install-Build-Required: false
